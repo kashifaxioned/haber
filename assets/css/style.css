@@ -89,6 +89,7 @@ body {
 
 a { 
   display: inline-block;
+  color: #fff;
   text-decoration: none; 
 }
 
@@ -99,18 +100,67 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  max-width: 1702px;
+  width: 92.5%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
+.header-section{
+  background-color: #424d55;
+  color: #fff;
+}
 
+.header-section .wrapper{
+  display: flex;
+  align-items: center;
+}
 
+.nav-section { 
+  flex-basis: 43.5%; 
+  margin: 0 15% 0 6.8%;
+}
 
+.nav-items{
+  display: flex;
+  justify-content: space-between;
+}
 
+.nav-items li a{
+  color: inherit;
+  font-size: 16px;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.selected { color: #dc6226;}
+
+.social-links{
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link::before{
+  font-family: "FontAwesome";
+  font-size: 32px;
+  color: #808d93;
+}
+
+.link::before:last-child { margin-right: 0; }
+
+.twitter::before { content: "\f081"; }
+
+.youtube::before { content: "\f167"; }
+
+.hotspot::before { content: "\f1eb"; }
+
+.facebook::before { content: "\f082"; }
+
+.google-plus::before { content: "\f2b3";}
 
 /*=================================
   Header styling ends here
