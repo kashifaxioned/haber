@@ -220,7 +220,88 @@ li {
   hero section styling ends here
 =================================*/
 
- 
+/*=================================
+  feature section styling starts here
+=================================*/
+
+.feature-section { 
+  padding: 128px 0 112px;
+  color: #404b53; 
+  text-align: center;
+}
+
+.section-title{
+  margin-bottom: 70px;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.feature-list{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature-list-item{
+  margin-right: 6%;
+}
+
+.feature-list-item:last-child { margin-right: 0; }
+
+.feature-list-item::before{
+  padding: 21px;
+  border-radius: 50%;
+  margin-bottom: 58px;
+  background-color: #dc6226;
+  color: #fff;
+  font-family: "FontAwesome";
+  font-size: 40px;
+}
+
+.private-banking::before{ content: "\f09d"; }
+
+.time-saving::before { content: "\e0e3"; }
+
+.budgetting::before { content: "\f4b9"; }
+
+.money-saving::before { content: "\f4c0";}
+
+.feature-list-title{
+  margin: 53px 0 31px;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.feature-list-info{
+  color: #b5b1b7;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btn{
+  padding: 18px 21px;
+  border: 1px solid #b5b1b7;
+  margin-top: 32px;
+  color: inherit;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+/*=================================
+  feature section styling ends here
+=================================*/
+
+/*=================================
+  assistance styling starts here
+=================================*/ 
+
+
+
+/*=================================
+  assistance styling ends here
+=================================*/ 
 
 /*=================================
   main styling ends here
