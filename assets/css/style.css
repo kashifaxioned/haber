@@ -395,7 +395,9 @@ li {
 
 .learning { 
   padding-left: 66px;
-  background-color: #404b53; }
+  flex: 1 1 auto;
+  background-color: #404b53; 
+}
 
 .service-section .section-title { 
   margin-bottom: 34px;
@@ -442,6 +444,31 @@ li {
   service section styling ends here
 =================================*/
 
+
+/*=================================
+  client styling starts here
+=================================*/ 
+
+.client-section { padding: 84px 0; }
+
+.client-section .wrapper {
+  max-width: 1821px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-section .icon-btn { font-size: 35px; }
+
+.clients-list {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*=================================
+  client styling ends here
+=================================*/ 
 
 
 /*=================================
