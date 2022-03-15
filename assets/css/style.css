@@ -108,12 +108,12 @@ li {
   Header styling starts here
 =================================*/
 
-.header-section{
+.header-section {
   background-color: #424d55;
   color: #fff;
 }
 
-.header-section .wrapper{
+.header-section .wrapper {
   display: flex;
   align-items: center;
 }
@@ -123,17 +123,25 @@ li {
   margin: 0 15% 0 6.8%;
 }
 
-.nav-items{
+.nav-items {
   display: flex;
   justify-content: space-between;
 }
 
-.nav-items li a{
+.nav-items li a {
   color: inherit;
   font-size: 17px;
   font-weight: 1000;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.about::after {
+  display: block;
+  color: #dc6226;
+  content: "\f107";
+  font-family: "FontAwesome";
+  text-align: center;
 }
 
 .selected { color: #dc6226;}
@@ -161,6 +169,12 @@ li {
 .facebook::before { content: "\f082"; }
 
 .google-plus::before { content: "\f2b3";}
+
+.nav-items a:hover, .link:hover{
+  color: #dc6226;
+  transform: scale(1.3);
+  transition: transform 0.2s ease-in;
+}
 
 /*=================================
   Header styling ends here
@@ -297,7 +311,61 @@ li {
   assistance styling starts here
 =================================*/ 
 
+.assistance-section{
+  padding: 130px 0 85px;
+  background-color: #e5edf0;
+  color: #404b53; 
+  text-align: center;
+}
 
+.assistance-section .section-title { margin-bottom: 38px; }
+
+.section-info{
+  margin-bottom: 75px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-group{
+  padding: 14px 14px 63px;
+  flex-basis: 30%;
+  background-color: #fff;
+}
+
+.card-img { max-width: 527px; }
+
+.card-title{
+  margin-top: 57px;
+  color: #dc6226;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.card-info{
+  max-width: 80%;
+  margin: 15px auto 29px;
+  color: #b5b1b7;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.arrow-btn::before{
+  content: "\f061";
+  font-family: "FontAwesome";
+  font-size: 20px;
+  padding: 2px;
+  border: 5px solid #000;
+  border-radius: 50%;
+  color: #000;  
+}
 
 /*=================================
   assistance styling ends here
