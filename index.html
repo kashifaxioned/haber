@@ -27,18 +27,18 @@
       <div class="wrapper">
         <h1 class="logo">
           <a href="#FIXME" title="logo" target="_self">
-            <img src="https://via.placeholder.com/331x152/DC6226/FFF?text=Haber" alt="logo">
+            <img src="https://via.placeholder.com/331x158/DC6226/FFF?text=Haber" alt="Logo">
           </a>
         </h1>
         <nav class="nav-section">
           <ul class="nav-items">
-            <li>
+            <li class="selected">
               <a href="#FIXME" title="home" target="_self">
                 home
               </a>
             </li>
             <li>
-              <a href="#FIXME" title="home" target="_self">
+              <a class="about" href="#FIXME" title="home" target="_self">
                 about
               </a>
             </li>
@@ -64,21 +64,21 @@
             </li>
           </ul>
         </nav>
-        <ul class="social links">
-          <li class="twitter">
-            <a href="#FIXME" target="_blank" title="twitter" rel="noopener noreferrer"></a>
+        <ul class="social-links">
+          <li>
+            <a href="#FIXME" class="twitter link" target="_blank" title="twitter" rel="noopener noreferrer"></a>
           </li>
-          <li class="youtube">
-            <a href="#FIXME" target="_blank" title="youtube" rel="noopener noreferrer"></a>
+          <li>
+            <a href="#FIXME" class="youtube link" target="_blank" title="youtube" rel="noopener noreferrer"></a>
           </li>
-          <li class="hotspot">
-            <a href="#FIXME" target="_blank" title="hotspot" rel="noopener noreferrer"></a>
+          <li>
+            <a href="#FIXME" class="hotspot link" target="_blank" title="hotspot" rel="noopener noreferrer"></a>
           </li>
-          <li class="facebook">
-            <a href="#FIXME" target="_blank" title="facebook" rel="noopener noreferrer"></a>
+          <li>
+            <a href="#FIXME" class="facebook link" target="_blank" title="facebook" rel="noopener noreferrer"></a>
           </li>
-          <li class="google-plus">
-            <a href="#FIXME" target="_blank" title="google-plus" rel="noopener noreferrer"></a>
+          <li>
+            <a href="#FIXME" class="google-plus link" target="_blank" title="google-plus" rel="noopener noreferrer"></a>
           </li>
         </ul>
       </div>
@@ -87,43 +87,72 @@
     <!--main section start-->
     <main>
       <!--hero section start-->
-      <section class="hero-section">
-        <div class="carousel">
-          <button class="right-btn"></button>
-          <h2 class="slide 1">we meet your financial needs</h2>
-          <h2 class="slide 2">we meet your innevstment needs</h2>
-          <h2 class="slide 3">we meet your credential needs</h2>
-          <button class="left-btn"></button>
-        </div>
-      </section>
+      <div class="hero-section">
+        <ul class="carousel">
+          <li class="slide1">
+            <figure>
+              <img src="./assets/image/carousel/1.jpg" alt="Slide 1">
+            </figure>
+            <div class="slide-controls">
+              <button class="left-btn icon-btn"></button>
+              <p class="slide1-info">we meet your financial investment needs</p>
+              <button class="right-btn icon-btn"></button>
+            </div>
+          </li>
+          <li class="slide2">
+            <figure>
+              <img src="./assets/image/carousel/2.jpg" alt="Slide 2">
+            </figure>
+            <div class="slide-controls">
+              <button class="left-btn icon-btn"></button>
+              <p class="slide1-info">we meet your financial investment needs</p>
+              <button class="right-btn icon-btn"></button>
+            </div>
+          </li>
+          <li class="slide3">
+            <figure>
+              <img src="./assets/image/carousel/3.jpg" alt="Slide 3">
+            </figure>
+            <div class="slide-controls">
+              <button class="left-btn icon-btn"></button>
+              <p class="slide1-info">we meet your financial investment needs</p>
+              <button class="right-btn icon-btn"></button>
+            </div>
+          </li>
+        </ul>
+      </div>
       <!--hero section end-->
       <!--feature section start-->
       <section class="feature-section">
         <div class="wrapper">
           <h2 class="section-title">our focus is our client's success</h2>
           <ul class="feature-list">
-            <li>
-              <h3>private banking</h3>
-              <h4>Integer bibendum turpis ligula, quis interdum lacus lobortis at. Mauris dapibus porttitor euismod.
-                Pellentesque mattis ultricies metus non molestie.</h4>
+            <li class="private-banking feature-list-item">
+              <h3 class="feature-list-title">private banking</h3>
+              <h4 class="feature-list-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus id illo
+                veniam sapiente sed voluptatibus obcaecati? Quam similique aliquam atque cum quae, debitis assumenda
+                nulla. Quisquam earum, odio nostrum quae quos voluptatem temporibus ratione!</h4>
               <a href="#FIXME" target="_self" title="read more" class="btn">read more</a>
             </li>
-            <li>
-              <h3>time saving tips</h3>
-              <h4>Integer bibendum turpis ligula, quis interdum lacus lobortis at. Mauris dapibus porttitor euismod.
-                Pellentesque mattis ultricies metus non molestie.</h4>
+            <li class="time-saving feature-list-item">
+              <h3 class="feature-list-title">time saving tips</h3>
+              <h4 class="feature-list-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus id illo
+                veniam sapiente sed voluptatibus obcaecati? Quam similique aliquam atque cum quae, debitis assumenda
+                nulla. Quisquam earum, odio nostrum quae quos voluptatem temporibus ratione!</h4>
               <a href="#FIXME" target="_self" title="read more" class="btn">read more</a>
             </li>
-            <li>
-              <h3>budgeting tips</h3>
-              <h4>Integer bibendum turpis ligula, quis interdum lacus lobortis at. Mauris dapibus porttitor euismod.
-                Pellentesque mattis ultricies metus non molestie.</h4>
+            <li class="budgetting feature-list-item">
+              <h3 class="feature-list-title">budgeting tips</h3>
+              <h4 class="feature-list-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus id illo
+                veniam sapiente sed voluptatibus obcaecati? Quam similique aliquam atque cum quae, debitis assumenda
+                nulla. Quisquam earum, odio nostrum quae quos voluptatem temporibus ratione!</h4>
               <a href="#FIXME" target="_self" title="read more" class="btn">read more</a>
             </li>
-            <li>
-              <h3>money saving ideas</h3>
-              <h4>Integer bibendum turpis ligula, quis interdum lacus lobortis at. Mauris dapibus porttitor euismod.
-                Pellentesque mattis ultricies metus non molestie.</h4>
+            <li class="money-saving feature-list-item">
+              <h3 class="feature-list-title">money saving ideas</h3>
+              <h4 class="feature-list-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus id illo
+                veniam sapiente sed voluptatibus obcaecati? Quam similique aliquam atque cum quae, debitis assumenda
+                nulla. Quisquam earum, odio nostrum quae quos voluptatem temporibus ratione!</h4>
               <a href="#FIXME" target="_self" title="read more" class="btn">read more</a>
             </li>
           </ul>
@@ -138,25 +167,31 @@
             fringilla condimentum in et lectus. Etiam nec rhoncus tortor. Nulla euismod.</h3>
           <ul class="card">
             <li class="card-group">
-              <img src="./assets/image/assistance/1.jpg" alt="personal meeting">
+              <figure>
+                <img class="card-img" src="./assets/image/assistance/1.jpg" alt="Personal Meeting">
+              </figure>
               <h3 class="card-title">aut preferendis</h3>
-              <h4 class="card-info">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Nulla venenatis et metus ac pellentesque. Suspendisse facilisis mauris risus.</h4>
+              <h4 class="card-info">Orci varius natoque penatibus etmagnis dis parturient montes, nascetur ridiculus
+                mus. Nulla venenatis et metus</h4>
               <a href="#FIXME" target="_self" title="more" class="arrow-btn"></a>
             </li>
             <li class="card-group">
-              <img src="./assets/image/assistance/2.jpg" alt="personal meeting">
+              <figure>
+                <img class="card-img" src="./assets/image/assistance/2.jpg" alt="Personal Meeting">
+              </figure>
               <h3 class="card-title">laoreetum</h3>
-              <h4 class="card-info">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Nulla venenatis et metus ac pellentesque. Suspendisse facilisis mauris risus.</h4>
-                <a href="#FIXME" target="_self" title="more" class="arrow-btn"></a>
+              <h4 class="card-info">Orci varius natoque penatibus etmagnis dis parturient montes, nascetur ridiculus
+                mus. Nulla venenatis et metus</h4>
+              <a href="#FIXME" target="_self" title="more" class="arrow-btn"></a>
             </li>
             <li class="card-group">
-              <img src="./assets/image/assistance/3.jpg" alt="personal meeting">
+              <figure>
+                <img class="card-img" src="./assets/image/assistance/3.jpg" alt="Personal Meeting">
+              </figure>
               <h3 class="card-title">fuod maxime</h3>
-              <h4 class="card-info">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Nulla venenatis et metus ac pellentesque. Suspendisse facilisis mauris risus.</h4>
-                <a href="#FIXME" target="_self" title="more" class="arrow-btn"></a>
+              <h4 class="card-info">Orci varius natoque penatibus etmagnis dis parturient montes, nascetur ridiculus
+                mus. Nulla venenatis et metus</h4>
+              <a href="#FIXME" target="_self" title="more" class="arrow-btn"></a>
             </li>
           </ul>
         </div>
@@ -195,31 +230,31 @@
         <div class="wrapper">
           <ul class="clients-list">
             <li class="clients">
-              <img src="https://via.placeholder.com/180x70/FFF/000?text=STREAM" alt="stream">
+              <img src="https://via.placeholder.com/180x70/FFF/000?text=STREAM" alt="Stream">
             </li>
             <li class="clients">
               <figure>
-                <img src="https://via.placeholder.com/180x70/FFF/000?text=green" alt="green">
-              </figure>
-            </li>
-            <li class="clients">
-              <figure> 
-                <img src="https://via.placeholder.com/180x70/FFF/000?text=RAPID" alt="rapid">
+                <img src="https://via.placeholder.com/180x70/FFF/000?text=green" alt="Green">
               </figure>
             </li>
             <li class="clients">
               <figure>
-                <img src="https://via.placeholder.com/180x70/FFF/000?text=Ourelia" alt="ourelia">
+                <img src="https://via.placeholder.com/180x70/FFF/000?text=RAPID" alt="Rapid">
               </figure>
             </li>
             <li class="clients">
               <figure>
-                <img src="https://via.placeholder.com/180x70/FFF/000?text=DORIAN" alt="dorian">
+                <img src="https://via.placeholder.com/180x70/FFF/000?text=Ourelia" alt="Ourelia">
               </figure>
             </li>
             <li class="clients">
               <figure>
-                <img src="https://via.placeholder.com/180x70/FFF/000?text=Millenium" alt="millenium">
+                <img src="https://via.placeholder.com/180x70/FFF/000?text=DORIAN" alt="Dorian">
+              </figure>
+            </li>
+            <li class="clients">
+              <figure>
+                <img src="https://via.placeholder.com/180x70/FFF/000?text=Millenium" alt="Millenium">
               </figure>
             </li>
           </ul>
