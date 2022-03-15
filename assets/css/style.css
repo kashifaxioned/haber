@@ -146,13 +146,13 @@ li {
 
 .selected { color: #dc6226;}
 
-.social-links{
+.social-links {
   flex: 1 1 auto;
   display: flex;
   justify-content: space-between;
 }
 
-.link::before{
+.link::before {
   font-family: "FontAwesome";
   font-size: 35px;
   color: #808d93;
@@ -170,7 +170,7 @@ li {
 
 .google-plus::before { content: "\f2b3";}
 
-.nav-items a:hover, .link:hover{
+.nav-items a:hover, .link:hover {
   color: #dc6226;
   transform: scale(1.3);
   transition: transform 0.2s ease-in;
@@ -188,16 +188,16 @@ li {
   hero section styling starts here
 =================================*/
 
-.hero-section{
+.hero-section {
  position: relative;
  color: #fff;
 }
 
-.carousel img{ object-fit: cover; }
+.carousel img { object-fit: cover; }
 
-.slide2, .slide3{display: none;}
+.slide2, .slide3 {display: none;}
 
-.slide-controls{
+.slide-controls {
   max-width: 1052px;
   padding: 21px 33px 26px;
   display: flex;
@@ -210,7 +210,7 @@ li {
   background-color: #dc6226;
 }
 
-.slide1-info, .slide2-info, .slide3-info{
+.slide1-info, .slide2-info, .slide3-info {
   flex-basis: 65%;
   font-size: 50px;
   font-weight: 800;
@@ -218,7 +218,7 @@ li {
   text-transform: uppercase;
 }
 
-.icon-btn{
+.icon-btn {
   border: none;
   background-color: inherit;
   color: inherit;
@@ -244,25 +244,25 @@ li {
   text-align: center;
 }
 
-.section-title{
+.section-title {
   margin-bottom: 70px;
   font-size: 50px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-.feature-list{
+.feature-list {
   display: flex;
   justify-content: space-evenly;
 }
 
-.feature-list-item{
+.feature-list-item {
   margin-right: 6%;
 }
 
 .feature-list-item:last-child { margin-right: 0; }
 
-.feature-list-item::before{
+.feature-list-item::before {
   padding: 21px;
   border-radius: 50%;
   margin-bottom: 58px;
@@ -272,7 +272,7 @@ li {
   font-size: 40px;
 }
 
-.private-banking::before{ content: "\f09d"; }
+.private-banking::before { content: "\f09d"; }
 
 .time-saving::before { content: "\e0e3"; }
 
@@ -280,20 +280,20 @@ li {
 
 .money-saving::before { content: "\f4c0";}
 
-.feature-list-title{
+.feature-list-title {
   margin: 53px 0 31px;
   font-size: 30px;
   font-weight: 800;
   text-transform: capitalize;
 }
 
-.feature-list-info{
+.feature-list-info {
   color: #b5b1b7;
   font-size: 18px;
   line-height: 1.6;
 }
 
-.btn{
+.btn {
   padding: 18px 21px;
   border: 1px solid #b5b1b7;
   margin-top: 32px;
@@ -311,7 +311,7 @@ li {
   assistance styling starts here
 =================================*/ 
 
-.assistance-section{
+.assistance-section {
   padding: 130px 0 85px;
   background-color: #e5edf0;
   color: #404b53; 
@@ -320,19 +320,19 @@ li {
 
 .assistance-section .section-title { margin-bottom: 38px; }
 
-.section-info{
+.section-info {
   margin-bottom: 75px;
   font-size: 30px;
   font-weight: 600;
   line-height: 1.6;
 }
 
-.card{
+.card {
   display: flex;
   justify-content: space-between;
 }
 
-.card-group{
+.card-group {
   padding: 14px 14px 63px;
   flex-basis: 30%;
   background-color: #fff;
@@ -340,7 +340,7 @@ li {
 
 .card-img { max-width: 527px; }
 
-.card-title{
+.card-title {
   margin-top: 57px;
   color: #dc6226;
   font-size: 40px;
@@ -348,7 +348,7 @@ li {
   text-transform: capitalize;
 }
 
-.card-info{
+.card-info {
   max-width: 80%;
   margin: 15px auto 29px;
   color: #b5b1b7;
@@ -357,7 +357,7 @@ li {
   line-height: 1.6;
 }
 
-.arrow-btn::before{
+.arrow-btn::before {
   content: "\f061";
   font-family: "FontAwesome";
   font-size: 20px;
@@ -370,6 +370,79 @@ li {
 /*=================================
   assistance styling ends here
 =================================*/ 
+
+/*=================================
+  service section styling starts here
+=================================*/
+
+.service-section {
+  display: flex;
+  color: #fff;
+}
+
+.service-section .wrapper {
+  width: 86%;
+}
+
+.service-group { 
+  padding: 62px 0 54px;
+ }
+
+.solutions { 
+  flex-basis: 100%;
+  background-color: #dc6226; 
+}
+
+.learning { 
+  padding-left: 66px;
+  background-color: #404b53; }
+
+.service-section .section-title { 
+  margin-bottom: 34px;
+  font-size: 48px; 
+  text-transform: capitalize;
+}
+
+.service-list {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.service-list li {
+  margin-bottom: 17px;
+  color: #b5b1b7;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.solutions ul { width: 510px; }
+
+.solutions li { color: #fff; }
+
+.service-list li::before{
+  content: "\f013";
+  font-family: "FontAwesome";
+  font-size: 18px;
+  margin-right: 26px;
+  color: #fff;
+}
+
+.service-list-info { 
+  color: #b5b1b7;
+  font-size: 24px; 
+  line-height: 1.5;
+}
+
+.service-section .btn { 
+  border: 3px solid #fff;
+  font-weight: 700;
+ }
+
+/*=================================
+  service section styling ends here
+=================================*/
+
+
 
 /*=================================
   main styling ends here
